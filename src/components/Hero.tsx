@@ -56,7 +56,7 @@ export const Hero: React.FC<HeroProps> = ({ onExplorePackages, lang }) => {
           transition={{ duration: 0.7, delay: 0.2 }}
           className="text-base sm:text-xl md:text-2xl text-amber-200/90 font-medium max-w-3xl mx-auto mb-8 drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)] font-cinzel"
         >
-          Al-Ajwiah Al-Madena: Your Trusted Partner for Hajj and Umrah
+          Al-Madinah: Your Trusted Partner for Hajj and Umrah
         </motion.p>
 
         {/* CTA Button matching the screenshot: "استكشف الحزم" with golden glow */}

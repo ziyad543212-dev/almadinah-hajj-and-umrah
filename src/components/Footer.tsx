@@ -33,8 +33,8 @@ export const Footer: React.FC<FooterProps> = ({ onOpenBooking, lang }) => {
                   <Phone className="w-3.5 h-3.5" />
                 </div>
                 <div>
-                  <span dir="ltr" className="font-semibold text-white tracking-wider block">+911 1236 7890</span>
-                  <span className="text-[10px] text-zinc-400 block" dir="ltr">+966 14 822 4500</span>
+                  <span dir="ltr" className="font-semibold text-white tracking-wider block">+963 995 277 511</span>
+                  <span className="text-[10px] text-zinc-400 block" dir="ltr">+966 5838 55 722</span>
                 </div>
               </div>
 
@@ -44,8 +44,8 @@ export const Footer: React.FC<FooterProps> = ({ onOpenBooking, lang }) => {
                   <Mail className="w-3.5 h-3.5" />
                 </div>
                 <div>
-                  <span className="font-semibold text-white block">email@al-ajwiah.com</span>
-                  <span className="text-[10px] text-zinc-400 block">care@al-ajwiah.com</span>
+                  <span className="font-semibold text-white block">Almadinahco2026@gmail.com</span>
+                  <span className="text-[10px] text-zinc-400 block">Almadinahco2026@gmail.com</span>
                 </div>
               </div>
 
@@ -55,9 +55,9 @@ export const Footer: React.FC<FooterProps> = ({ onOpenBooking, lang }) => {
                   <MapPin className="w-3.5 h-3.5" />
                 </div>
                 <div>
-                  <span className="font-semibold text-white block">2203 Marsah Street, Address, Medina</span>
+                  <span className="font-semibold text-white block">Damascus Suburb Douma</span>
                   <span className="text-[10px] text-zinc-400 block">
-                    {isAr ? 'طريق الملك عبدالعزيز - المنطقة المركزية، المدينة المنورة' : 'King Abdulaziz Rd - Central Area, Medina'}
+                    {isAr ? 'ريف دمشق دوما شارع المالية' : 'King Abdulaziz Rd - Central Area, Medina'}
                   </span>
                 </div>
               </div>
@@ -96,7 +96,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenBooking, lang }) => {
               AL-MADENA HAJJ & UMRAH
             </h3>
             <p className="text-xs text-amber-200/80 mt-1 font-amiri font-bold">
-              {isAr ? 'شركة الأجواء المدينة لخدمات الحج والعمرة والزيارة' : 'Al-Madinah Al-Ajwa Hajj & Umrah Services'}
+              {isAr ? 'شركة المدينة لخدمات الحج والعمرة والزيارة' : 'Al-Madinah Al-Ajwa Hajj & Umrah Services'}
             </p>
             <p className="text-[11px] text-zinc-400 mt-1 max-w-xs">
               {isAr ? 'خدمة ضيوف الرحمن شرف لنا وأمانة نرعاها بأعلى درجات الإتقان' : 'Serving the guests of Allah is our honor and trust'}

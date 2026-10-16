@@ -73,7 +73,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
                 {lang === 'ar' ? 'حجز رحلة الحج والعمرة' : 'Hajj & Umrah Booking'}
               </h3>
               <p className="text-xs text-amber-200/70">
-                {lang === 'ar' ? 'شركة الأجواء المدينة لخدمات ضيوف الرحمن' : 'Al-Ajwiah Al-Madena Services'}
+                {lang === 'ar' ? 'شركة المدينة لخدمات ضيوف الرحمن' : 'Al-Ajwiah Al-Madena Services'}
               </p>
             </div>
           </div>
