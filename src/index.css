@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Cairo', 'Amiri', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-amiri {
+  font-family: 'Amiri', serif;
+}
+
+.font-cairo {
+  font-family: 'Cairo', sans-serif;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+/* Custom Gold Gradients & Accents */
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #dfba73 0%, #c59b4c 50%, #99732d 100%);
+}
+
+.gold-gradient-btn {
+  background: linear-gradient(180deg, #dfba73 0%, #b88a38 100%);
+  color: #11141a;
+  font-weight: 700;
+  box-shadow: 0 4px 14px rgba(184, 138, 56, 0.35);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gold-gradient-btn:hover {
+  background: linear-gradient(180deg, #edd295 0%, #c59744 100%);
+  box-shadow: 0 6px 20px rgba(223, 186, 115, 0.45);
+  transform: translateY(-1px);
+}
+
+.gold-text-gradient {
+  background: linear-gradient(135deg, #fae29f 0%, #d4a953 50%, #99732d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border {
+  border-color: #c5a059;
+}
+
+.gold-border-subtle {
+  border-color: rgba(197, 160, 89, 0.3);
+}
+
+/* Glassmorphic card styling matching image */
+.package-card {
+  background: linear-gradient(180deg, #101622 0%, #0c1019 100%);
+  border: 1.5px solid #b89146;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.package-card:hover {
+  border-color: #e5c378;
+  box-shadow: 0 8px 30px rgba(184, 145, 70, 0.2);
+  transform: translateY(-4px);
+}
+
+/* Custom luxury scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b0f17;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #392d19;
+  border-radius: 4px;
+  border: 1px solid #735928;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b89146;
+}
+
